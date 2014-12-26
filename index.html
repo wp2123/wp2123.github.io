@@ -5,9 +5,11 @@ title: Wang Pu's Blog
 <div class="content-left left">
     <h4>自我总结</h4>
     <ul>
-        <!--<li>-->
-            <!--<span>2014.12.25</span> &nbsp; &raquo; &nbsp; <a href="">2014年的自我总结</a>-->
-        <!--</li>-->
+        {% for post in site.posts %}
+            <li>
+                <span>{{ post.date | date_to_string }}</span> &nbsp; &raquo; &nbsp; <a href="{{post.url}}">{{ post.title }}</a>
+            </li>
+        {% endfor %}
     </ul>
 </div>
 
