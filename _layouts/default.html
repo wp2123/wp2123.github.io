@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="style/main.css" type="text/css">
     </head>
     <body>
-        <div class="container">
+        <div class="container clearfix">
             <!--<div class="header" role="header">-->
                 <!--<h2>Wang Pu's Blog</h2>-->
                 <!--<span>看起来不够努力，其实我只是想能够一直走下去……</span> -->
@@ -18,7 +18,10 @@
             <div class="header">
                 <h1>Blog</h1>
             </div>
-            {{ content }}
+            <div class="content-left">
+                {{ content }}
+            </div>
+            <div class="content-right"></div>
         </div>
     </body>
 </html>
