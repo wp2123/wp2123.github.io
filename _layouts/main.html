@@ -5,7 +5,7 @@
         <meta name="author" content="Wang Pu">
         <meta name="description" content="记录学习、工作、生活中的点点滴滴">
         <meta name="keywords" content="编程 感悟 Ruby Rails Javascript">
-        <title>Wang Pu's Blog</title>
+        <title>{{ page.title }}</title>
 
         <link rel="stylesheet" href="style/main.css" type="text/css">
     </head>
@@ -23,11 +23,9 @@
                     <a href="mailto:wangpu2123@sina.com">e-mail:&nbsp;&nbsp;wangpu2123@sina.com</a>
                 </div>
             </div>
-            <div class="content-left left">
-                Hello Blog!
-
+            <div>
+                {{ content }}
             </div>
-            <div class="content-right right"></div>
         </div>
     </body>
 </html>

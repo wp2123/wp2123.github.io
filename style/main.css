@@ -91,3 +91,15 @@ body {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 14px;
+}
+
+li span {
+    color: #666666;
+}
+
