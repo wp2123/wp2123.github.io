@@ -82,3 +82,12 @@ body {
     margin-left: 10px;
 }
 
+.email {
+    padding-top: 46px;
+}
+
+.email a{
+    font-size: 12px;
+    text-decoration: none;
+}
+
